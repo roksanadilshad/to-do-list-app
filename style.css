@@ -25,10 +25,11 @@
     margin-bottom: 20px;
 
 }
-.todo-app h2 img{
+/* .todo-app h2 img{
     width: 30px;
-    margin-left: 10px;
+    margin-left: 10px; 
 }
+    */
 .row{
     display: flex;
     align-items: center;
@@ -100,3 +101,14 @@ ul li span{
 ul li span:hover{
      background: #edeef0;
 }
+
+p{
+    color: blue;
+}
+@media (min-width: 570px){
+     .todo-app{
+    max-width: 550px;
+    
+}
+}
+
